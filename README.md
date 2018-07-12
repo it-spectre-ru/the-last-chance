@@ -6,8 +6,8 @@
 
 ## TODO 
 - [x] starting 
-- [] list on main page my repos from console.log
-- [] create 3 page
+- [ ] list on main page my repos from console.log
+- [ ] create 3 page
 
 
 
