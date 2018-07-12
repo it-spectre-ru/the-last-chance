@@ -7,7 +7,12 @@
 ## TODO 
 - [x] starting 
 - [ ] list on main page my repos from console.log
-- [ ] create 3 page
+- [ ] create page main
+- [ ] create page about
+- [ ] create page prognosys
+- [ ] create page profile subscriber
+- [ ] create page profile tipster
+- [ ] create page amount
 
 
 
