@@ -1,6 +1,29 @@
+import React from 'react'
 import styled from 'styled-components'
 
+import { Grid, Col } from 'react-styled-flexboxgrid'
 import { Colors, Metrics, Gradients } from 'Themes'
+
+export const Column = ({ children, ...etc }) => <Col xs={12} {...etc}>{children}</Col>
+
+export const ListTitle = styled.span`
+  display: block;
+  font-size: 1.2rem;
+  color: #111;
+  font-family: sans-serif;
+`
+
+export const ListItem = styled(Column)`
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+`
+
+export const ListContainer = styled(Grid)`
+  display: flex;
+  flex-direction: column;
+`
 
 export const RoundButton = styled.span`
   ${props => props.fullWidth ? `
