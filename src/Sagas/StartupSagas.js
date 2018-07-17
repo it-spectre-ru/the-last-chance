@@ -3,6 +3,6 @@ import { log } from 'Utils/Log'
 
 export function * startup (api) {
   // your stuff
-  const testApi = yield call(api.getRepos, 'tsvetkovpro')
+  const testApi = yield call(api.getRepos, 'it-spectre-ru')
   log({ testApi })
 }

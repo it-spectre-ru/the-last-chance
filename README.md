@@ -3,6 +3,11 @@
 
 ![Rampage!](./godmode.png)
 
+# 
+
+![Proto!](./1.png)
+
+
 
 ## TODO 
 - [x] starting 
@@ -13,6 +18,7 @@
 - [ ] create page profile subscriber
 - [ ] create page profile tipster
 - [ ] create page amount
+
 
 
 
