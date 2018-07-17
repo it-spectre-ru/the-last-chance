@@ -12,20 +12,6 @@ import './App.css'
 const store = createStore()
 
 class App extends Component {
-  componentDidMount () {
-    Notification.requestPermission().then((result) => {
-      if (result === 'denied') {
-        console.log('Notification permission wasn\'t granted. Allow a retry.')
-      } else if (result === 'default') {
-        console.log('Notification permission request was dismissed.')
-      } else if (result === 'granted') {
-        // Do something with the granted permission.
-        console.log('Notifications are granted')
-      } else {
-        console.log('Notification unhandled', { result })
-      }
-    })
-  }
   render () {
     return (
       <ThemeProvider theme={gridConfig}>

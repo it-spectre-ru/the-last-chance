@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { ScreenWrapper } from './MainStyles'
 
-import { Button } from 'Components'
+import { Button, ListItems } from 'Components'
 
 export default class MainScreen extends Component {
   state = {
@@ -9,15 +9,16 @@ export default class MainScreen extends Component {
   }
   render () {
     const { is } = this.state
-    console.log({ is })
+
     return (
       <ScreenWrapper>
-        <Button
+        {/* <Button
           disabled={is}
           onClick={() => this.setState({ is: !is })}
           gradient='blue'>
           Hey, dude!
-        </Button>
+        </Button> */}
+        <ListItems />
       </ScreenWrapper>
     )
   }
